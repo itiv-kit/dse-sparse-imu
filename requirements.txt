@@ -1,0 +1,14 @@
+PyYAML
+Poutyne
+torchinfo
+tqdm
+smplx
+matplotlib
+pynvml
+einops
+timm
+pandas
+scipy
+chumpy
+pyquaternion
+open3d
