@@ -3,7 +3,7 @@
 Supporting the design of sparse IMU-sensing systems for human pose estimation, this repository contains a framework to perform a design space exploration on different IMU sensor configurations.
 It comprises synthesis of IMU-data, training of a deep neural network and visualization of the human pose estimation.
 
-This work will be published on IROS 2023, preprint available [here](https://arxiv.org/abs/2308.02397).
+This work has been published by IEEE and presented on IROS 2023 under the DOI [10.1109/IROS55552.2023.10341256](https://doi.org/10.1109/IROS55552.2023.10341256). Preprint available [here](https://arxiv.org/abs/2308.02397).
 
 # Setup
 
