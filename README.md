@@ -238,12 +238,12 @@ Data sets and body models have to be downloaded from source:
 If you found this tool useful, please use the following bibtex to cite us
 
 ```
-@inproceedings{Fuerst-Walter2023,
-    Title = {Design Space Exploration on Efficient and Accurate Human Pose Estimation from Sparse IMU-Sensing},
-    Author = {Fuerst-Walter, Iris and Nappi, Antonio and Harbaum, Tanja and Becker, Juergen},
-    Booktitle = IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS),
-    Year = {in press 2023},
-}
+@INPROCEEDINGS{10341256,
+  author={Fürst-Walter, Iris and Nappi, Antonio and Harbaum, Tanja and Becker, Jürgen},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
+  title={Design Space Exploration on Efficient and Accurate Human Pose Estimation from Sparse IMU-Sensing}, 
+  year={2023},
+  doi={10.1109/IROS55552.2023.10341256}}
 ```
 
 # License
