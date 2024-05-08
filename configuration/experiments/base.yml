@@ -1,0 +1,31 @@
+name: BaseIMUNet
+parameters:
+  train_epochs: 50
+  finetune_epochs: 20
+  optimizer:
+    optim: Adam
+    lr: 0.001
+  lr_schedulers:
+    - ExponentialLR:
+        args: [0.96]
+  loss_function: mse
+  batch_metrics:
+  epoch_metrics:
+  monitor_metric: loss
+  num_past_frames: 20
+  num_future_frames: 5
+  batch_size: 16
+
+dataset:
+  train: AMASS_TP
+  validation:
+  finetune: DIP_train
+  test: DIP_test
+  use_general_dataset: False
+  transforms:
+    in:
+      DIP:
+      TC:
+      AMASS_DIP:
+      AMASS_TP:
+    out:
